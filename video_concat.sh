@@ -70,11 +70,19 @@ init(){
     mkdir output
     echo "
 
+sample.mp4 00:00:00 00:00:01
+sample.mp4 00:00:03 00:00:05
+sample.mp4 00:00:01 00:00:05
+" > sample_config.txt
+
+    echo "
+
 video_01.mp4 00:00:00 00:00:15
 video_02.mp4 00:15:56 00:21:20
 video_01.mp4 00:24:13 00:36:12
 etc.. (Note laissez la premiere ligne vide (sais pas pk :/)
-" > sample_config.txt
+" > sample_config_2.txt
+
     echo "Return to current directory"
     cd $CURRENT
 
